@@ -1,0 +1,15 @@
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\bin\Debug\net6.0\ConsoleApp9.exe
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\bin\Debug\net6.0\ConsoleApp9.deps.json
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\bin\Debug\net6.0\ConsoleApp9.runtimeconfig.json
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\bin\Debug\net6.0\ConsoleApp9.dll
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\bin\Debug\net6.0\ConsoleApp9.pdb
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ConsoleApp9.csproj.AssemblyReference.cache
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ConsoleApp9.GeneratedMSBuildEditorConfig.editorconfig
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ConsoleApp9.AssemblyInfoInputs.cache
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ConsoleApp9.AssemblyInfo.cs
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ConsoleApp9.csproj.CoreCompileInputs.cache
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ConsoleApp9.dll
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\refint\ConsoleApp9.dll
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ConsoleApp9.pdb
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ConsoleApp9.genruntimeconfig.cache
+T:\CSharp\Education\ConsoleApp9\ConsoleApp9\obj\Debug\net6.0\ref\ConsoleApp9.dll
