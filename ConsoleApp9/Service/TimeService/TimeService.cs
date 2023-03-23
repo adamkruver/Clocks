@@ -1,34 +1,34 @@
-﻿namespace ConsoleApp9.Service.TimeService;
+﻿using ConsoleApp9.Common.ServiceState;
+
+namespace ConsoleApp9.Service.TimeService;
 
 public class TimeService: Common.Service, ITimeService
 {
-    private readonly int _tickDelay = 1000;
+    private readonly int _tickDelay;
     
-    private bool _isEnabled;
-
     public event Action<long>? Ticked;
+
+    public TimeService():this(1000)
+    {
+    }
+
+    public TimeService(int tickDelay) => 
+        _tickDelay = tickDelay;
 
     public long Ticks { get; private set; }
     
     public void Reset() => 
         Ticks = 0;
 
-    protected override void OnInitialize() => 
-        Ticks = 0;
+    protected override void OnInitialize() =>
+        Reset();
 
-    protected override void OnEnable()
-    {
-        _isEnabled = true;
-        
+    protected override void OnEnable() => 
         Task.Run(Process);
-    }
-    
-    protected override void OnDisable() => 
-        _isEnabled = false;
 
     private async Task Process()
     {
-        while (_isEnabled)
+        while (State is EnableServiceState)
         {
             Tick();
             await Task.Delay(_tickDelay);
